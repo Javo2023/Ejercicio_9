@@ -11,7 +11,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class SecondActivity extends AppCompatActivity {
-    Bundle bundle;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

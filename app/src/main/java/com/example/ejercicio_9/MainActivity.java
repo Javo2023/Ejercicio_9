@@ -11,10 +11,10 @@ import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
 
-    int image1 = R.drawable.btn_star_big_on;
-    int image2 = R.drawable.ic_launcher_foreground;
-    int image3 = R.drawable.btn_dialog;
-    int image4 = R.drawable.checkbox_on_background;
+    int image1 = R.drawable._517090__1_;
+    int image2 = R.drawable.e_learning_svgrepo_com;
+    int image3 = R.drawable.drawing_svgrepo_com;
+    int image4 = R.drawable._056977;
 
 
     @Override
