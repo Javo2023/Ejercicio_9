@@ -11,6 +11,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class SecondActivity extends AppCompatActivity {
+    Bundle bundle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +21,7 @@ public class SecondActivity extends AppCompatActivity {
         initListeners();
 
         Intent intentGet =getIntent();
-        int idImage = intentGet.getIntExtra("Clave",0);
+        int idImage = intentGet.getIntExtra("clave",0);
         Log.d("SecondActivity",String.valueOf(idImage));
 
         ImageView imageView = findViewById(R.id.imageView);
